@@ -99,7 +99,7 @@ This isn't just another menu-based project—it's a powerful, feature-packed app
 
 🤖 Gemini Chatbot Setup
 
-    To use the chatbot, you'll need a GEMINI API KEY. You can grab one for free at AI Studio. Once you've got your key, you're all set!
+    To use the chatbot, you'll need a GEMINI API KEY. You can grab one for free at https://aistudio.google.com/app/apikey. Once you've got your key, you're all set!
 
     Your chat history is stored in MongoDB, so your assistant will always remember where you left off. No more forgetting those important tasks! 🧠
 
