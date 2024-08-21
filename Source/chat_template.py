@@ -89,7 +89,7 @@ def get_model_config():
 
 @st.cache_resource
 def initialize_convo(chat_id):
-    genai.configure(api_key="AIzaSyCZWGizEsHfDbVZFOma9eYrOdJb51ILDOo")
+    genai.configure(api_key="GEMINI_API_KEY")
 
     generation_config, safety_settings = get_model_config()
     content = None

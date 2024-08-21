@@ -70,7 +70,7 @@ def capture_and_merge_interactive():
                 cv2.imshow("Image 2", image2)
             else:
                 # Merge and save images
-                output_path = rf"C:\Users\dragon389\Desktop\General\Source\Automation\Outputs\images\merged_image_{np.random.randint(1, 1000)}.jpg"
+                output_path = rf"Outputs\images\merged_image_{np.random.randint(1, 1000)}.jpg"
                 merge_images(image1, image2, output_path)
                 print(f"Merged image saved to: {output_path}")
                 break
