@@ -4,7 +4,6 @@ pandas
 numpy
 matplotlib
 seaborn
-yagmail
 google-generativeai
 pymongo
 opencv-python
