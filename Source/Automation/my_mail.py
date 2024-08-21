@@ -1,7 +1,9 @@
 import smtplib
 import ssl
+import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.mime.application import MIMEApplication
 from load_attachment_address import load_attachment_address
 
 def email(reciever, subject, body, attachment=False):
@@ -79,6 +81,3 @@ def bulk_email(recievers: str, subject, body, attachment=False):
     except Exception as e:
         print(f"Error: {e}")
 
-
-# Example usage
-email("aakashchauhan9636@gmail.com", "Happy Exams", "Hope you are doing well and pass the exam.")
