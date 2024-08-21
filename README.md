@@ -62,6 +62,8 @@ This isn't just another menu-based project—it's a powerful, feature-packed app
         
     Ready to dive in? Here's how you can set things up:
 
+    -- Move to Source folder.
+
 1. Install MongoDB
 
     First, ensure you have MongoDB installed on your computer. Alternatively, update the code to use MongoDB services like Azure CosmosDB by modifying the MongoClient in chat_template.py.
@@ -93,7 +95,7 @@ This isn't just another menu-based project—it's a powerful, feature-packed app
 
 🎉 You’re Ready to Roll!
    
-    Your application is now up and running. Note that SMS and WhatsApp features require phone numbers—names won’t do the trick here. For emails, you'll need to provide the recipient's email address. A demo sender email is included, but feel free to swap it out.
+    Your application is now up and running. Note that SMS and WhatsApp features require phone numbers—names won’t do the trick here. For emails, you'll need to provide the recipient's email address. A demo sender email is included, but feel free to swap it out. For sms, you need to login in Phone Link and google messages for web.
 
 🤖 Gemini Chatbot Setup
 
